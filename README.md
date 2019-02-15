@@ -24,13 +24,22 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+React was created by Facebook in order to break down a user interface into re-usable components, each of which is kept to a reasonable size and can be updated independently. These encapsulated pieces of user interface concern themselves with their own individual pieces of the DOM. React uses an engine called the Virtual DOM to update any changes that will be made over time to applications.
 
-- [ ] Describe state.
+- [X] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+Thinking in a way that allows you to look at a UI design, and begin to structure the components and sub-components into a component hierarchy depending on the desired functionality. This will determine the flow of the data, and where any saved state should live (although usually with the parent where possible).
+
+- [X] Describe state.
+
+State is simply data our application needs to use. It can begin with an initialised state, but crucially this state can be updated in ‘react-ive’ way,allowing the DOM to update depending on the current state. In a class component it may be defined in the constructor, however it may simply refer to a variable outside of the class.
+
+- [X] Describe props.
+
+Props stands for properties. If a component holds its own state, and needs to give that state data to another component, we pass that state around as Props. Props cannot be mutated.
+
 
 ## Project Set Up
 
@@ -49,7 +58,7 @@ Follow these steps for completing your project.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 

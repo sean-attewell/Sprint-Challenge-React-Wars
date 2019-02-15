@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: floralwhite;
+  /* opacity: 0.5; */
+  /* width: 50%; */
+  margin: 0 30%;
+
 }
 .Header {
   color: #443e3e;
