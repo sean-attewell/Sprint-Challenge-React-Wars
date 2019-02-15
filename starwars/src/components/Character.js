@@ -13,6 +13,12 @@ const Character = props => {
             <div className="attr">
             Height: {props.character.height} 
             </div>
+            <div className="attr">
+            Film appearances: {props.character.films.length} 
+            </div>
+            <div className="attr">
+            More info on {props.character.name}'s species: <a href={props.character.species} target="_blank">CLICK HERE</a>
+            </div>
         </div>
     );
 };

@@ -1,22 +1,26 @@
 .character {
     color:rgb(51, 49, 49);
     padding: 10px 2%;
+    font-size: 1.8rem;
     font-weight: bolder;
-    list-style-type: circle;
+    list-style-type: none;
+    
 }
 
 .characterContainer {
     border: 1px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 20px;
-    background: floralwhite;
+    background: rgba(255, 250, 240, 0.7);
     box-shadow: 10px 10px 5px grey;
-
+    /* opacity: 0.5; */
 }
 
 .attr {
     padding: 5px;
+    font-weight: bold;
 }
+
 .attr:last-child {
     margin-bottom: 10px;
 }
